@@ -2,7 +2,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=C792EA&center=true&vCenter=true&random=false&width=460&lines=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85+%C2%B7+Python+%2B+AI+%2B+Automation;QLED+%E5%99%A8%E4%BB%B6%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96+%C2%B7+%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%94%9F%E6%80%81%E4%BF%9D%E6%8A%A4&sep=false" alt="Typing SVG" />
 </p>
 
-<!-- Stats & Streak 并排 -->
+<p align="center">
+  <b>Python 科研工具开发者</b> &nbsp;|&nbsp; PDF 解析 &middot; LLM 信息提取 &middot; CLI 工具链
+</p>
+<p align="center">
+  <i>把科研论文中的器件性能数据，从 PDF 变成结构化 Excel —— 自动化、可溯源、带校验</i>
+</p>
+
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=traditionalpc01-beep&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&custom_title=GitHub+Stats" />
   <img height="165" src="https://github-readme-streak-stats.demolab.com/?user=traditionalpc01-beep&theme=tokyonight&locale=zh_Hans&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
@@ -12,9 +18,72 @@
 
 ### /now
 
-**Building** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4 — PDF 论文智能分析 CLI 工具
-**Refactoring** [paper-analysis-toolkit-agentflow](https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow) — Agent-First 架构，LangGraph 工作流引擎
-**Exploring** 量子点材料科学领域的自动化数据挖掘 pipeline
+**Building** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4 — PDF 论文智能分析 CLI，支持 regex 本地兜底 + LLM API 双模式
+**Refactoring** [paper-analysis-toolkit-agentflow](https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow) — Agent-First 架构重构，LangGraph 多 Agent 工作流引擎
+**Exploring** 量子点材料科学领域的自动化数据挖掘 pipeline 与期刊影响因子自动补全
+
+---
+
+### What I Build
+
+从零独立开发科研领域工具，覆盖从 PDF 解析到数据提取到报告生成的完整链路。
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>PaperInsight CLI</b><br/><sub>PDF 论文智能分析</sub><br/><br/>
+      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+      <br/><br/>
+      <sup>
+        Click CLI &middot; 双模式提取<br/>
+        PDF → 文本清洗 → 数据提取 → Excel/JSON<br/>
+        多 LLM 后端 (OpenAI/DeepSeek/Longcat)
+      </sup>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>Agent-First Refactor</b><br/><sub>多 Agent 工作流引擎</sub><br/><br/>
+      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit-agentflow&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+      <br/><br/>
+      <sup>
+        LangGraph 工作流编排<br/>
+        Agent 职责分离与状态管理<br/>
+        从 v3 单体到 v4 Agent 架构
+      </sup>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>翼界科技官网</b><br/><sub>企业级服务展示平台</sub><br/><br/>
+      <a href="https://github.com/traditionalpc01-beep/company-base">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=company-base&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+      <br/><br/>
+      <sup>
+        React + TypeScript + Vite<br/>
+        无人机生态保护服务展示<br/>
+        响应式企业级前端架构
+      </sup>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Architecture Decisions
+
+在项目中做过的关键选型和设计决策，这些是我思考技术问题的方式：
+
+| 决策 | 选择 | 原因 |
+|:-----|:-----|:-----|
+| 提取策略 | LLM API + Regex 本地兜底双模式 | API 不稳定或超限时自动降级，保证离线可用 |
+| PDF 解析 | MinerU CLI + PaddleOCR 双通道 | MinerU 处理标准 PDF，OCR 兜底扫描件/图表 |
+| 缓存机制 | PDF MD5 指纹去重 | 避免重复解析，支持增量处理上百篇论文 |
+| 配置管理 | Click CLI + 交互式配置向导 | 科研用户非技术背景，需要零配置开箱即用 |
+| 架构演进 | 单体 → Agent-First (LangGraph) | 将解析/提取/校验拆分为独立 Agent，提升可测试性和扩展性 |
+| 打包分发 | PyPI + Electron 桌面壳 | CLI 满足批量场景，GUI 满足非技术用户 |
+| 影响因子 | AI 自动补全 + 人工校验 | 从期刊名称自动匹配 JCR/IF 数据，降低人工查表成本 |
 
 ---
 
@@ -24,33 +93,8 @@
   <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,typescript,react,vite,tailwind&perline=7&theme=dark" />
 </p>
 <p>
-  <img src="https://skillicons.dev/icons?i=sqlite,pandas,git,github,docker,linux,vscode&perline=7&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=sqlite,pandas,click,openai,docker,git,linux&perline=7&theme=dark" />
 </p>
-
----
-
-### Projects
-
-<!-- 项目卡片：3列布局 -->
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit-agentflow&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/traditionalpc01-beep/company-base">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=company-base&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -65,6 +109,12 @@
 </p>
 
 ---
+
+### Open to Opportunities
+
+- **方向**: Python 后端 / AI 应用开发 / 科研工具链 / 数据工程
+- **偏好**: 有产品感的团队，认可独立开发经历，技术驱动
+- **时间**: 全职 / 远程优先
 
 ### Reach Me
 
