@@ -1,50 +1,74 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=A8B1FF&center=true&vCenter=true&random=false&width=500&lines=Hello%2C+I'm+traditionalpc01-beep;Research+Tool+Developer;Python+%2B+AI+%2B+Automation&sep=false" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=C792EA&center=true&vCenter=true&random=false&width=460&lines=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85+%C2%B7+Python+%2B+AI+%2B+Automation;QLED+%E5%99%A8%E4%BB%B6%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96+%C2%B7+%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%94%9F%E6%80%81%E4%BF%9D%E6%8A%A4&sep=false" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <b>Python科研工具开发者</b> | 专注PDF论文分析与智能数据提取
+<!-- Stats & Streak 并排 -->
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=traditionalpc01-beep&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&custom_title=GitHub+Stats" />
+  <img height="165" src="https://github-readme-streak-stats.demolab.com/?user=traditionalpc01-beep&theme=tokyonight&locale=zh_Hans&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 </p>
 
 ---
 
-### About Me
+### /now
 
-Python科研工具开发者，专注于用自动化和AI技术解决科研领域的数据处理痛点。目前主要活跃在QLED/量子点材料科学和无人机生态保护两大领域，独立开发和维护多个科研工具。
+**Building** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4 — PDF 论文智能分析 CLI 工具
+**Refactoring** [paper-analysis-toolkit-agentflow](https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow) — Agent-First 架构，LangGraph 工作流引擎
+**Exploring** 量子点材料科学领域的自动化数据挖掘 pipeline
 
-- **核心项目**: PaperInsight -- 一款PDF论文自动化分析工具，支持从论文中提取器件性能数据并生成结构化报告
-- **技术方向**: PDF解析 + LLM信息提取 + CLI工具开发 + 数据分析与可视化
-- **工作模式**: Agent-First工作流架构，注重模块化设计和离线容错能力
+---
 
 ### Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,react,vite,tailwind,electron,fastapi&perline=7&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,typescript,react,vite,tailwind&perline=7&theme=dark" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=sqlite,pandas,git,github,docker,linux,vscode&perline=7&theme=dark" />
 </p>
 
-### Featured Projects
+---
+
+### Projects
+
+<!-- 项目卡片：3列布局 -->
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit-agentflow&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/traditionalpc01-beep/company-base">
+        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=company-base&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Trophies & Activity
 
 <p>
-  <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit&theme=tokyonight&hide_border=true&show_owner=true" />
-  </a>
-  <a href="https://github.com/traditionalpc01-beep/company-base">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=company-base&theme=tokyonight&hide_border=true&show_owner=true" />
-  </a>
+  <img width="490" src="https://github-profile-trophy.vercel.app/?username=traditionalpc01-beep&theme=onestar&no-bg=true&no-frame=true&column=7&margin-w=5" />
 </p>
-
-### GitHub Stats
 
 <p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=traditionalpc01-beep&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&locale=zh_Hans" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=traditionalpc01-beep&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&locale=zh_Hans" />
+  <img width="830" src="https://github-readme-activity-graph.vercel.app/graph?username=traditionalpc01-beep&bg_color=1a1b27&color=c792ea&line=c792ea&point=c792ea&area=true&area_color=c792ea10&hide_border=true&theme=react-dark&days=31&height=150" />
 </p>
 
-### Contact
+---
 
-[![](https://img.shields.io/badge/Email-office@ejdrone.com-blue?style=flat&logo=protonmail)](mailto:office@ejdrone.com)
-[![](https://img.shields.io/badge/GitHub-traditionalpc01--beep-lightgrey?style=flat&logo=github)](https://github.com/traditionalpc01-beep)
+### Reach Me
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=traditionalpc01-beep&style=flat-square&color=blueviolet" alt="Profile Views" />
-</p>
+[![](https://img.shields.io/badge/Email-office@ejdrone.com-6C63FF?style=flat&logo=protonmail&logoColor=white)](mailto:office@ejdrone.com)
+[![](https://img.shields.io/badge/GitHub-traditionalpc01--beep-181717?style=flat&logo=github&logoColor=white)](https://github.com/traditionalpc01-beep)
+
+<img src="https://komarev.com/ghpvc/?username=traditionalpc01-beep&style=flat-square&color=c792ea" alt="Profile Views" />
