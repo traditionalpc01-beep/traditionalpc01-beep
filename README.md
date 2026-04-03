@@ -71,6 +71,26 @@
 
 ---
 
+### Private Projects (脱敏后)
+
+| 项目名称 | 类型 | 技术栈 | 描述 |
+|---------|------|--------|------|
+| **AI 数据处理平台** | 后端服务 | Python, FastAPI, MongoDB | 企业级数据处理与分析平台，支持大规模数据处理 |
+| **智能文档管理系统** | 全栈应用 | React, Node.js, PostgreSQL | 基于 AI 的文档管理与检索系统 |
+| **自动化测试框架** | 工具链 | Python, pytest, Selenium | 企业内部自动化测试工具，提高测试效率 |
+
+---
+
+### Latest Updates
+
+**Updated** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4.1 — 新增支持 Longcat API，优化 OCR 处理流程
+
+**Released** [quantum-dot-miner](https://github.com/traditionalpc01-beep/quantum-dot-miner) v1.0 — 量子点材料科学数据挖掘工具，支持自动提取和分析量子点性能数据
+
+**Developing** [lab-automation-system](https://github.com/traditionalpc01-beep/lab-automation-system) — 实验室自动化管理系统，集成实验设备控制与数据采集
+
+---
+
 ### Architecture Decisions
 
 在项目中做过的关键选型和设计决策，这些是我思考技术问题的方式：
