@@ -1,144 +1,87 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=C792EA&center=true&vCenter=true&random=false&width=460&lines=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85+%C2%B7+Python+%2B+AI+%2B+Automation;QLED+%E5%99%A8%E4%BB%B6%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96+%C2%B7+%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%94%9F%E6%80%81%E4%BF%9D%E6%8A%A4&sep=false" alt="Typing SVG" />
-</p>
+<!--
+这个页面不挂任何第三方统计服务。
+没有 vercel 公共实例的 stats 卡，没有 trophy，没有访客计数，没有定时生成的 svg。
+唯一的外部依赖是 shields.io 的静态徽章。
+-->
 
-<p align="center">
-  <b>Python 科研工具开发者</b> &nbsp;|&nbsp; PDF 解析 &middot; LLM 信息提取 &middot; CLI 工具链
-</p>
-<p align="center">
-  <i>把科研论文中的器件性能数据，从 PDF 变成结构化 Excel —— 自动化、可溯源、带校验</i>
-</p>
+<div align="center">
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=traditionalpc01-beep&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&custom_title=GitHub+Stats" />
-  <img height="165" src="https://github-readme-streak-stats.demolab.com/?user=traditionalpc01-beep&theme=tokyonight&locale=zh_Hans&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-</p>
+**traditionalpc01-beep**
 
----
+科研工具开发者 · Python 为主，写一点 Go 和 TypeScript
 
-### /now
+把 QLED / 量子点方向的论文数据，从 PDF 变成能直接进 Excel 的结构化表格
 
-**Building** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4 — PDF 论文智能分析 CLI，支持 regex 本地兜底 + LLM API 双模式
-**Refactoring** [paper-analysis-toolkit-agentflow](https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow) — Agent-First 架构重构，LangGraph 多 Agent 工作流引擎
-**Exploring** 量子点材料科学领域的自动化数据挖掘 pipeline 与期刊影响因子自动补全
+<br/>
 
----
+![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=555555&alt=Python)
+![Go](https://img.shields.io/badge/go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=555555&alt=Go)
+![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=555555&alt=TypeScript)
+![React](https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=555555&alt=React)
+![Electron](https://img.shields.io/badge/electron-2C2E3B?style=flat-square&logo=electron&logoColor=white&labelColor=555555&alt=Electron)
 
-### What I Build
-
-从零独立开发科研领域工具，覆盖从 PDF 解析到数据提取到报告生成的完整链路。
-
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%">
-      <b>PaperInsight CLI</b><br/><sub>PDF 论文智能分析</sub><br/><br/>
-      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-      <br/><br/>
-      <sup>
-        Click CLI &middot; 双模式提取<br/>
-        PDF → 文本清洗 → 数据提取 → Excel/JSON<br/>
-        多 LLM 后端 (OpenAI/DeepSeek/Longcat)
-      </sup>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <b>Agent-First Refactor</b><br/><sub>多 Agent 工作流引擎</sub><br/><br/>
-      <a href="https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=paper-analysis-toolkit-agentflow&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-      <br/><br/>
-      <sup>
-        LangGraph 工作流编排<br/>
-        Agent 职责分离与状态管理<br/>
-        从 v3 单体到 v4 Agent 架构
-      </sup>
-    </td>
-    <td align="center" valign="top" width="33%">
-      <b>翼界科技官网</b><br/><sub>企业级服务展示平台</sub><br/><br/>
-      <a href="https://github.com/traditionalpc01-beep/company-base">
-        <img width="280" src="https://github-readme-stats.vercel.app/api/pin/?username=traditionalpc01-beep&repo=company-base&theme=tokyonight&hide_border=true&show_owner=true&description_lines_count=2" />
-      </a>
-      <br/><br/>
-      <sup>
-        React + TypeScript + Vite<br/>
-        无人机生态保护服务展示<br/>
-        响应式企业级前端架构
-      </sup>
-    </td>
-  </tr>
-</table>
+</div>
 
 ---
 
-### Private Projects (脱敏后)
+同一篇器件性能数据，在十篇论文里可能有十种写法，单位、量程、是否含滤光片都不统一。我做的事情就是让机器把这批数字读出来，并且**读出来的数敢直接进 Excel** —— 带来源页码，带原始上下文，能对回去核对。
 
-| 项目名称 | 类型 | 技术栈 | 描述 |
-|---------|------|--------|------|
-| **AI 数据处理平台** | 后端服务 | Python, FastAPI, MongoDB | 企业级数据处理与分析平台，支持大规模数据处理 |
-| **智能文档管理系统** | 全栈应用 | React, Node.js, PostgreSQL | 基于 AI 的文档管理与检索系统 |
-| **自动化测试框架** | 工具链 | Python, pytest, Selenium | 企业内部自动化测试工具，提高测试效率 |
+下面这些工具都是一个人从零写的，从解析、抽取到落表和打包。
 
----
+## 现在
 
-### Latest Updates
+- **paperinsight 4.2.1** — 改动已经合进 `main`，release tag 还停在 v4.1。刚修掉两个 P0：PDF 指纹缓存往返后失效，以及 LongCat 接口静默返回 `None` 时不报警。
+- **physics-writing-studio v3.3.0** — 从通用的 Nature 改写工具收窄到 QLED / 量子点专域，知识库按物理论文重新蒸馏。
+- **multi-model-consensus-pipeline** — 在补分级降级路径的测试。
 
-**Updated** [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit) v4.1 — 新增支持 Longcat API，优化 OCR 处理流程
+## 项目
 
-**Released** [quantum-dot-miner](https://github.com/traditionalpc01-beep/quantum-dot-miner) v1.0 — 量子点材料科学数据挖掘工具，支持自动提取和分析量子点性能数据
+#### [paper-analysis-toolkit](https://github.com/traditionalpc01-beep/paper-analysis-toolkit)
 
-**Developing** [lab-automation-system](https://github.com/traditionalpc01-beep/lab-automation-system) — 实验室自动化管理系统，集成实验设备控制与数据采集
+`typer` CLI · 1.1 MB Python · 有 Electron 桌面壳
 
----
+PDF → Markdown → 器件指标 → Excel/JSON。解析走 MinerU API，扫描件和图表用 PaddleOCR 兜底（`paperinsight/parser/mineru.py`、`paperinsight/ocr/paddlex_api.py`）；抽取层同时接 OpenAI 兼容协议、DeepSeek 和 LongCat 三个后端（`paperinsight/llm/`），API 挂了会自动退回本地 regex 规则，不会因为某个模型限流就整批中断。按 PDF 的 MD5 做增量缓存，几百篇重跑只解析新增的那几篇。桌面壳是 `electron` 28 + `electron-builder`，给非代码背景的研究者用。
 
-### Architecture Decisions
+#### [physics-writing-studio](https://github.com/traditionalpc01-beep/physics-writing-studio)
 
-在项目中做过的关键选型和设计决策，这些是我思考技术问题的方式：
+189 篇 Nature 系开放获取物理论文语料 · 14 个 TSV 知识库约 10,700 行
 
-| 决策 | 选择 | 原因 |
-|:-----|:-----|:-----|
-| 提取策略 | LLM API + Regex 本地兜底双模式 | API 不稳定或超限时自动降级，保证离线可用 |
-| PDF 解析 | MinerU CLI + PaddleOCR 双通道 | MinerU 处理标准 PDF，OCR 兜底扫描件/图表 |
-| 缓存机制 | PDF MD5 指纹去重 | 避免重复解析，支持增量处理上百篇论文 |
-| 配置管理 | Click CLI + 交互式配置向导 | 科研用户非技术背景，需要零配置开箱即用 |
-| 架构演进 | 单体 → Agent-First (LangGraph) | 将解析/提取/校验拆分为独立 Agent，提升可测试性和扩展性 |
-| 打包分发 | PyPI + Electron 桌面壳 | CLI 满足批量场景，GUI 满足非技术用户 |
-| 影响因子 | AI 自动补全 + 人工校验 | 从期刊名称自动匹配 JCR/IF 数据，降低人工查表成本 |
+上游是 [mumdark/nature-writing-studio](https://github.com/mumdark/nature-writing-studio) 的 v2.x，我把它转成了纯物理领域版本：语料换成 QLED / 量子点方向，句式库和术语表重新蒸馏。中文草稿进，符合期刊行文习惯的英文出，跑在 Codex / ZCode 这类 AI 助手里。这是我最近在改的一个。
 
----
+#### [multi-model-consensus-pipeline](https://github.com/traditionalpc01-beep/multi-model-consensus-pipeline)
 
-### Tech Stack
+`Python 3.11+` · 270 KB · 单测覆盖共识判定、schema 校验与状态机
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,typescript,react,vite,tailwind&perline=7&theme=dark" />
-</p>
-<p>
-  <img src="https://skillicons.dev/icons?i=sqlite,pandas,click,openai,docker,git,linux&perline=7&theme=dark" />
-</p>
+让多个模型互相审代码，但**不让它们做开放式推理**：编排逻辑硬编码进 MCP Server，模型只在 `route_id` / `task_class` / `next_action` 这类封闭选项里选，输入输出全部绑 JSON Schema，不合格直接熔断。已接入 Codex CLI 和 LongCat-Flash-Thinking，按 L2（完整编排）/ L1（只选路）/ L0（禁用模型编排）三级降级 —— 基础模型是可热插拔的弱依赖节点，任何一个挂了流程还能走完。
 
----
+#### [paper-analysis-toolkit-agentflow](https://github.com/traditionalpc01-beep/paper-analysis-toolkit-agentflow)
 
-### Trophies & Activity
+Agent-First 拆分版 · 5 步固定流程
 
-<p>
-  <img width="490" src="https://github-profile-trophy.vercel.app/?username=traditionalpc01-beep&theme=onestar&no-bg=true&no-frame=true&column=7&margin-w=5" />
-</p>
+把单体 pipeline 拆成职责隔离的阶段：MinerU 转 Markdown → 用 IDE agent 或网页工具匹配期刊与最新影响因子 → LongCat 逐篇抽指标（一篇一线程）→ 合并身份数据与指标数据 → 回填报告路径。增量 finalize 会把 `03_paper_data.json` 和 `04_metrics_result.json` 单独合，中间某篇失败不影响其余落表。
 
-<p>
-  <img width="830" src="https://github-readme-activity-graph.vercel.app/graph?username=traditionalpc01-beep&bg_color=1a1b27&color=c792ea&line=c792ea&point=c792ea&area=true&area_color=c792ea10&hide_border=true&theme=react-dark&days=31&height=150" />
-</p>
+#### [company-base](https://github.com/traditionalpc01-beep/company-base)
 
----
+`React 18` + `TypeScript 5.8` + `Vite 6` + `Tailwind` · `React Router 7`
 
-### Open to Opportunities
+翼界科技的官网，无人机与生态保护服务的展示站。我一个人做的前端，包含响应式布局和构建流水线。
 
-- **方向**: Python 后端 / AI 应用开发 / 科研工具链 / 数据工程
-- **偏好**: 有产品感的团队，认可独立开发经历，技术驱动
-- **时间**: 全职 / 远程优先
+## 一些做法
 
-### Reach Me
+| 问题 | 我的选择 | 为什么 |
+|:---|:---|:---|
+| 抽取全靠 LLM，限流就瘫 | LLM 与本地 regex 双模式，失败自动降级 | 批量任务不能因为一个接口断流整批重跑 |
+| 扫描件和图表 PDF | MinerU 主路 + PaddleOCR 兜底 | MinerU 处理标准文本层，OCR 只补它啃不动的 |
+| 重复解析上百篇论文 | PDF 的 MD5 指纹做去重与增量 | 解析是最贵的一步，能省就省 |
+| 影响因子每年变 | 从期刊名自动匹配，匹配不到才人工查 | 查表成本比写匹配逻辑高 |
+| 使用者不会命令行 | 交互式配置向导 + Electron 壳 | 科研使用者不装 Python 环境 |
+| 多模型代码协作不可控 | 封闭选项 + JSON Schema 契约 + 三级降级 | 开放式推理没法复现，也就没法审 |
 
-[![](https://img.shields.io/badge/Email-office@ejdrone.com-6C63FF?style=flat&logo=protonmail&logoColor=white)](mailto:office@ejdrone.com)
-[![](https://img.shields.io/badge/GitHub-traditionalpc01--beep-181717?style=flat&logo=github&logoColor=white)](https://github.com/traditionalpc01-beep)
+已经废弃的：[paper-analysis-toolsV2](https://github.com/traditionalpc01-beep/paper-analysis-toolsV2) 是早期版本，仓库留着做对照，实际用 `paper-analysis-toolkit`。
 
-<img src="https://komarev.com/ghpvc/?username=traditionalpc01-beep&style=flat-square&color=c792ea" alt="Profile Views" />
+## 联系
+
+在找 Python 后端 / AI 应用开发 / 科研工具链方向的机会，全职或远程优先。
+
+[![Email](https://img.shields.io/badge/office%40ejdrone.com-6C63FF?style=flat-square&logo=protonmail&logoColor=white&alt=Email)](mailto:office@ejdrone.com)
+[![GitHub](https://img.shields.io/badge/traditionalpc01--beep-181717?style=flat-square&logo=github&logoColor=white&alt=GitHub)](https://github.com/traditionalpc01-beep)
